@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="304dp"
+        android:layout_height="400dp"
+        tools:itemCount="13"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="44dp"
+        tools:listitem="@layout/recycler_view_item" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="191dp"
+        android:layout_height="32dp"
+        android:text="תוצאות החיפוש"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="8dp" />
+</android.support.constraint.ConstraintLayout>
